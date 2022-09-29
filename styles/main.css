@@ -37,13 +37,18 @@ h2 {
   font-family: var(--body-font);
 }
 
-.btn-branded {
+.btn-branding {
   background: var(--second-color);
   font-size: 18px;
-  padding: 18px 46px;
-  transition: all 200ms ease-in-out;
+  border-radius: 4px;
+  color: white;
+  line-height: 27px;
+  padding: 15px 40px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
 }
-.btn-branded:hover {
-  background: var(--second-color);
-  opacity: 0.9;
+.btn-branding:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+  opacity: 0.95;
 }
