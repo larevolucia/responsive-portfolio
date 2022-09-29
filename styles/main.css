@@ -1,4 +1,49 @@
+:root {
+  --first-color: #07588a;
+  --second-color: #6ac1b8;
+  --third-color: #bfe9db;
+  --fourth-color: #e1f6f4;
+  --body-font: "Cantarell", sans-serif;
+  --header-font: "Fjalla One", sans-serif;
+}
 body {
-  background-color: blue;
-  color: beige;
+  font-family: var(--body-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--header-font);
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.hero {
+  background: var(--fourth-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero h2 {
+  font-family: var(--body-font);
+}
+
+.btn-branded {
+  background: var(--second-color);
+  font-size: 18px;
+  padding: 18px 46px;
+  transition: all 200ms ease-in-out;
+}
+.btn-branded:hover {
+  background: var(--second-color);
+  opacity: 0.9;
 }
