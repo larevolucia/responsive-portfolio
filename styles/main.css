@@ -3,8 +3,8 @@
   --second-color: #6ac1b8;
   --third-color: #bfe9db;
   --fourth-color: #e1f6f4;
-  --body-font: "Cantarell", sans-serif;
-  --header-font: "Fjalla One", sans-serif;
+  --body-font: "Inter", sans-serif;
+  --header-font: "Josefin Sans", sans-serif;
 }
 body {
   font-family: var(--body-font);
@@ -35,6 +35,8 @@ h2 {
 
 .hero h2 {
   font-family: var(--body-font);
+  font-weight: normal;
+  font-size: 24px;
 }
 
 .btn-branding {
@@ -42,13 +44,59 @@ h2 {
   font-size: 18px;
   border-radius: 4px;
   color: white;
-  line-height: 27px;
+
   padding: 15px 40px;
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
-.btn-branding:hover {
+.btn-sm-branding {
+  background: var(--second-color);
+  font-size: 18px;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.btn-branding:hover,
+.btn-sm-branding:hover {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   color: white;
   opacity: 0.95;
+}
+.button-wrapper {
+  margin: 40px auto;
+}
+.details-wrapper {
+  margin-top: 150px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .hero h2 {
+    font-family: var(--body-font);
+    font-weight: normal;
+    font-size: 20px;
+  }
+  .button-wrapper {
+    text-align: center;
+  }
+  .details-wrapper {
+    margin-top: 15px;
+  }
 }
