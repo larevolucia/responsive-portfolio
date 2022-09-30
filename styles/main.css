@@ -26,7 +26,9 @@ h1 {
 h2 {
   font-size: 36px;
 }
-
+p {
+  line-height: 1.5;
+}
 .hero {
   background: var(--fourth-color);
   text-align: center;
@@ -69,9 +71,6 @@ h2 {
 .button-wrapper {
   margin: 40px auto;
 }
-.details-wrapper {
-  margin-top: 150px;
-}
 
 @media (max-width: 768px) {
   h1 {
@@ -95,8 +94,5 @@ h2 {
   }
   .button-wrapper {
     text-align: center;
-  }
-  .details-wrapper {
-    margin-top: 15px;
   }
 }
