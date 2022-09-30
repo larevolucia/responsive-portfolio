@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <title>Lúcia Reis - Product Manager</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -27,10 +28,61 @@
       src="https://kit.fontawesome.com/35a0b8e851.js"
       crossorigin="anonymous"
     ></script>
-
-    <title>Document</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Lúcia Reis</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About me</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                My experience
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="/experiences.html#content"
+                    >Publishing & Content</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/experiences.html#product"
+                    >Product & Development</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html#contact">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="hero">
       <h1>Lúcia Reis</h1>
       <h2 class="mb-5">Product Manager based in Amsterdam</h2>
@@ -41,7 +93,7 @@
 
     <div class="container">
       <div class="row mt-5">
-        <div class="col-sm-6 d-none d-sm-block">
+        <div class="col-lg-6 d-none d-sm-block">
           <img
             src="/img/ebooks.jpg"
             alt="ebooks types"
@@ -49,35 +101,39 @@
             class="img-fluid rounded mb-3"
           />
         </div>
-        <div class="col-sm-6">
-          <h2 class="mt-5">Publishing & Content</h2>
-          <p>
-            Extensive experience in digital publishing industry, including
-            management of production, marketing and sales os e-book and
-            audiobooks. My experience includes acquisition of content, editing,
-            proofreading and content creation.
-          </p>
-          <div class="button-wrapper">
-            <a href="#" title="Learn more" class="btn-branding">Learn more</a>
+        <div class="col-lg-6">
+          <div class="description">
+            <h2 class="mb-5">Publishing & Content</h2>
+            <p>
+              Extensive experience in digital publishing industry, including
+              management of production, marketing and sales os e-book and
+              audiobooks. My experience includes acquisition of content,
+              editing, proofreading and content creation.
+            </p>
+            <div class="button-wrapper">
+              <a href="#" title="Learn more" class="btn-branding">Learn more</a>
+            </div>
           </div>
         </div>
       </div>
       <div class="row mt-4">
-        <div class="col-sm-6">
-          <h2 class="mt-5">Product & Development</h2>
-          <p>
-            Experience setting product discovery, strategy and roadmap
-            management. My knowledge of front-end development helps me translate
-            business requirements into actionable items and brigde the
-            communication with technical teams.
-          </p>
-          <div class="button-wrapper">
-            <a href="#" title="Product & Development" class="btn-branding"
-              >Learn more</a
-            >
+        <div class="col-lg-6">
+          <div class="description">
+            <h2 class="mb-5">Product & Development</h2>
+            <p>
+              Experience setting product discovery, strategy and roadmap
+              management. My knowledge of front-end development helps me
+              translate business requirements into actionable items and brigde
+              the communication with technical teams.
+            </p>
+            <div class="button-wrapper">
+              <a href="#" title="Product & Development" class="btn-branding"
+                >Learn more</a
+              >
+            </div>
           </div>
         </div>
-        <div class="col-sm-6 mt-5 d-none d-sm-block">
+        <div class="col-lg-6 mt-5 d-none d-sm-block">
           <img
             src="/img/computer-coding.jpg"
             alt="Code in computer screen"
@@ -87,6 +143,5 @@
         </div>
       </div>
     </div>
-    <script src="/src/app.js"></script>
   </body>
 </html>

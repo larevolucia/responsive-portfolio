@@ -27,7 +27,10 @@ h2 {
   font-size: 36px;
 }
 p {
-  line-height: 1.5;
+  line-height: 30px;
+}
+nav a {
+  font-family: var(--header-font);
 }
 .hero {
   background: var(--fourth-color);
@@ -69,9 +72,18 @@ p {
   opacity: 0.95;
 }
 .button-wrapper {
-  margin: 40px auto;
+  margin: 70px auto;
 }
-
+.description,
+.about-me-wrapper {
+  padding: 120px 60px;
+}
+.about-me-wrapper h1 {
+  font-size: 50px;
+}
+.about-me-wrapper h2 {
+  font-size: 20px;
+}
 @media (max-width: 768px) {
   h1 {
     font-size: 42px;
@@ -94,5 +106,10 @@ p {
   }
   .button-wrapper {
     text-align: center;
+    margin: 40px auto;
+  }
+  .description,
+  .about-me-wrapper {
+    padding: inherit;
   }
 }
