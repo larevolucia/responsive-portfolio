@@ -74,15 +74,18 @@ nav a {
 .button-wrapper {
   margin: 70px auto;
 }
-.description,
-.about-me-wrapper {
+.content-container {
   padding: 120px 60px;
 }
-.about-me-wrapper h1 {
+.content-container h1 {
   font-size: 50px;
 }
-.about-me-wrapper h2 {
+.content-container h2 {
   font-size: 20px;
+}
+li,
+lh {
+  line-height: 2;
 }
 @media (max-width: 768px) {
   h1 {
@@ -108,12 +111,12 @@ nav a {
     text-align: center;
     margin: 40px auto;
   }
-  .about-me-wrapper h1 {
+  .content-container h1 {
     font-size: 30px;
     text-align: center;
   }
-  .description,
-  .about-me-wrapper {
+
+  .content-container {
     padding: inherit;
   }
 }
