@@ -108,6 +108,10 @@ nav a {
     text-align: center;
     margin: 40px auto;
   }
+  .about-me-wrapper h1 {
+    font-size: 30px;
+    text-align: center;
+  }
   .description,
   .about-me-wrapper {
     padding: inherit;
