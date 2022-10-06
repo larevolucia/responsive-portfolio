@@ -132,7 +132,7 @@ a:hover {
 .social-links a {
   margin: 10px 8px;
 }
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   h1 {
     font-size: 42px;
   }
