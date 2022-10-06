@@ -73,19 +73,8 @@ a:hover {
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
-.btn-sm-branding {
-  background: var(--first-color);
-  font-size: 18px;
-  border-radius: 4px;
-  color: white !important;
-  font-size: 16px;
-  padding: 8px 13px;
-  text-decoration: none;
-  transition: all 150ms ease-in-out;
-}
 
-.btn-branding:hover,
-.btn-sm-branding:hover {
+.btn-branding:hover {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   color: white;
   opacity: 0.95;
