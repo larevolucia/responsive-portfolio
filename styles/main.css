@@ -47,7 +47,9 @@ a {
   color: var(--second-color);
   text-decoration: none;
 }
-
+footer {
+  padding: 20px 0;
+}
 a:hover {
   color: var(--first-color);
 }
@@ -62,6 +64,10 @@ a:hover {
   font-weight: normal;
   font-size: 24px;
 }
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 .btn-branding {
   background: var(--second-color);
@@ -73,7 +79,9 @@ a:hover {
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
-
+.img {
+  width: 440px;
+}
 .btn-branding:hover {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   color: white;
