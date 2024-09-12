@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="Lúcia Reis is a brazilian product manager with experience in publishing, mobile gaming and video on demand industries."
+        />
+        <title>Stories | Reducing Waste</title>
+        <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+        <link rel="canonical" href="https://fascinating-wisp-fcdd6d.netlify.app/" />
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+          crossorigin="anonymous"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Josefin+Sans:wght@500;700&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="/styles/main.css" />
+        <link rel="stylesheet" href="/styles/blog.css" />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://kit.fontawesome.com/35a0b8e851.js"
+          crossorigin="anonymous"
+        ></script>
+      </head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/" title="Homepage">Lúcia Reis</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" title="Homepage" aria-current="page" href="/"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" title="About Lúcia Reis" href="/#about-me"
+                  >About me</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Professional Experience
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      title="Product Management experience"
+                      href="/experiences.html#product"
+                      >Product Management</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      title="Front-end development experience"
+                      href="/experiences.html#development"
+                      >Front-end Development</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link " href="/blog.html" title="Stories">Stories</a></li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="/contact.html"
+                  title="Contact Lúcia Reis"
+                  >Contact me</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="content-container">
+  <article>
+    <h1>Reducing Waste</h1>
+
+    <h2>A journey for automated Game Releases</h2>
+    <p>Everyone's journey to becoming a product manager is unique, and mine is no exception. For me, it has always been about identifying opportunities to make things better—often by creating solutions that didn't exist yet.</p>
+    <p>One of the most rewarding projects I worked on was the development of a release management tool at Spil Games (now part of Azerion).</p>
+    <p>Spil Games specializes in casual mobile games for iOS, Android, and Amazon stores. These games are free-to-play and monetized through a combination of ads and in-app purchases. The intricacies of free-to-play strategies are fascinating, but that's a story for another day.</p>
+    <p>I joined Spil Games as a Release Manager, a role within the Project Management team. My job (shared with one other colleague) was to oversee the release of games. This involved more than just pushing a button to make a game available on app stores.</p> 
+    <p>We had to coordinate with stakeholders to ensure marketing assets and development work were ready on time, educate teams on compliance rules, review assets, and collaborate with Game Producers on the rollout strategy for each release.</p>
+    <p>It didn't take long for me to notice significant inefficiencies in the release process. There was too much back-and-forth communication and no reliable way to track the process history, making it difficult to identify areas for improvement.</p>
+    <p>When I shared my observations with my peer, he mentioned his own ideas for improvement, specifically around automating tasks prone to human error. He had already done some great research and found an open-source tool called Fastlane, but hadn't had the time to turn it into a business case.
+    </p>
+    <p>With the two of us working together, it became more feasible to carve out time for process improvements. We could also challenge each other's ideas and build on our different experiences to create a stronger proposal.</p>
+    
+    <img src="/img/blog/release-process-automation.jpg" alt="Flowchart showing the release process and communication around it"  class="img-fluid img-center" />
+    <p>We gathered feedback from our colleagues about the current process and discussed our team's OKRs with our manager. Together, we built a proposal to integrate Fastlane into a proprietary release management tool. This tool would provide the entire organization with visibility into the release process, identify bottlenecks, and maintain a history to refine release strategies.</p>
+    <p>While it sounds fancy, the product itself was quite simple. Working with the lead developer, we mapped out the existing process and highlighted the pain points. We then designed a new process and validated it with all stakeholders.</p>
+    <p>We built a straightforward UI that initiated the release process and logged each completed step, sending notifications and reminders to relevant parties along the way. Some technical checks, previously performed by the Release or QA teams, were automated, and we enabled direct pushes to the app stores from our Release Management application.</p>
+    <p>It might not have been the kind of product development that makes headlines, but it was significant for us. It brought much-needed transparency to the process and freed up our team members from mundane tasks, allowing them to contribute more value to the organization.
+    </p>
+    <p>This experience planted a seed for me—I realized that product management was something I was passionate about and might actually be the best way for me to make an impact. </p>
+    <div class="article-footer"><a href="/blog.html">Back to Stories</a></div>
+
+</article>
+
+  <footer>
+    <div
+      class="contact-box justify-content-between mb-5 d-none d-md-flex"
+      id="contact"
+    >
+      <div>
+        <h2 class="mt-4">Let's get in touch!</h2>
+        <p class="text-muted">I'm open for product and development jobs.</p>
+      </div>
+      <div class="mt-5">
+        <a class="btn-branding" href="/contact.html" title="Contact Page"
+          >Contact me</a
+        >
+      </div>
+    </div>
+    <a href="mailto:reis.lucia@gmail.com" class="email-link"
+      >reis.lucia@gmail.com</a
+    >
+    <div class="social-links">
+      <a
+        href="https://www.linkedin.com/in/luciareis/"
+        target="_blank"
+        title="Linkedin Profile"
+        ><i class="fa-brands fa-linkedin-in"></i
+      ></a>
+      <a
+        href="https://github.com/larevolucia"
+        target="_blank"
+        title="Github Profile"
+        ><i class="fa-brands fa-github"></i
+      ></a>
+    </div>
+    <div class="text-center mt-3">
+      ✌️ This website was coded by Lúcia Reis, and is
+      <a
+        href="https://github.com/larevolucia/responsive-portfolio"
+        target="_blank"
+        title="Github Repository"
+        >open-sourced</a
+      >
+    </div>
+  </footer>
+</div>
+</body>
+</html>

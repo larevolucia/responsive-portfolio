@@ -1,0 +1,50 @@
+article {padding: 20px 10px;
+text-align: left;}
+
+article p {
+    font-size: 16px;
+    text-align: left;
+    text-indent: 35px;
+    margin: 0 10px;
+}
+
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .blog-post {
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .blog-thumbnail {
+    width: 100%;
+    height: auto;
+  }
+  
+  .blog-title {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  .img-center{  display: block;
+    margin: 20px auto;
+    max-width: 800px;
+}
+.article-footer{
+ margin-top: 20px;
+ font-weight: 600;
+}
+
+  
+  @media (max-width: 820px) {
+    .img-center{  display: block;
+        margin: 20px auto;
+        width: 100%;
+    }
+    
+}
